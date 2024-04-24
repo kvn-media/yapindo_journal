@@ -72,12 +72,18 @@ class BookList extends StatelessWidget {
             },
           ),
         ),
-        // Add your scrollable content here
         Padding(
           padding: const EdgeInsets.all(10),
-          child: Text(
-            'ANALISIS FARMAKOEKONOMI PENGGUNAAN AMLODIPIN, KOMBINASI AMLODIPIN/VALSARTAN, DAN KOMBINASI AMLODIPIN/TELMISARTAN PADA PASIEN PENYAKIT GINJAL DIABETIK DI RUANG RAWAT INAP LONTARA RSUP DR WAHIDIN SUDIROHUSODO',
-            style: TextStyle(fontSize: 16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'ANALISIS FARMAKOEKONOMI PENGGUNAAN AMLODIPIN, KOMBINASI AMLODIPIN/VALSARTAN, DAN KOMBINASI AMLODIPIN/TELMISARTAN PADA PASIEN PENYAKIT GINJAL DIABETIK DI RUANG RAWAT INAP LONTARA RSUP DR WAHIDIN SUDIROHUSODO',
+                style: TextStyle(fontSize: 16),
+              ),
+              // Add more text or widgets here as needed
+              
+            ],
           ),
         ),
       ],
