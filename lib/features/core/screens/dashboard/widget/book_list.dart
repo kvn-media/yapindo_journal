@@ -82,7 +82,20 @@ class BookList extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               // Add more text or widgets here as needed
-              
+              SizedBox(height: 10),
+              Text(
+                '5 Halaman',
+                style: TextStyle(fontSize: 16),
+              ),
+              SizedBox(height: 10),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text('Baca Sekarang'),
+                style: ElevatedButton.styleFrom(
+                  foregroundColor: Colors.white,
+                  backgroundColor: Colors.orange,
+                ),
+              ),
             ],
           ),
         ),
